@@ -1,2 +1,2 @@
 #Odin-Recipes
-First project on "THe odin project" course
+First project on "The odin project" course
