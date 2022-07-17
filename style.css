@@ -1,0 +1,14 @@
+@font-face {
+    font-family: pretty-curly ;
+    src: url(./fonts/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: subtitle-text ;
+    src: url(./fonts/Francois_One/FrancoisOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: normal-font ;
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
