@@ -1,3 +1,4 @@
+/*Importing all fonts*/
 @font-face {
     font-family: pretty-curly ;
     src: url(./fonts/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf);
@@ -12,3 +13,14 @@
     font-family: normal-font ;
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
+
+/*Defining colors*/
+:root {
+    /* CSS HEX */
+    --rich-black-fogra-29: #001524ff;
+    --ming: #15616dff;
+    --blanched-almond: #ffecd1ff;
+    --amber-sae-ece: #ff7d00ff;
+    --kobe: #78290fff;
+}
+
