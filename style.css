@@ -17,20 +17,29 @@
 /*Defining colors*/
 :root {
     /* CSS HEX */
-    --rich-black-fogra-29: #001524ff;
-    --ming: #15616dff;
+    --english-violet: #58355eff;
+    --vermilion: #e03616ff;
     --blanched-almond: #ffecd1ff;
-    --amber-sae-ece: #ff7d00ff;
-    --kobe: #78290fff;
+    --carolina-blue: #fff689ff;
+    --tea-green: #cfffb0ff;
+    --carolina-blue: #5998c5ff;
 }
+
+
+
+
 
 ul{
     list-style: none;
 }
 
+li {
+    color : var(--tea-green);
+}
+
 ul li::before{
     content: "\2605";
-    color: var(--amber-sae-ece);
+    color: var(--tea-green);
     display: inline-block;
     width: 20px;
     margin-left: -20px;
@@ -42,7 +51,7 @@ p{
 }
 
 #title{
-    background-color: var(--ming) ;
+    background-color: var(--carolina-blue) ;
     padding: 5px;
     margin: 5px;
     text-align: center;
@@ -57,28 +66,31 @@ p{
 h1,h2,h3,h4,h5,h6 {
     font-family: subtitle-text, sans-serif;
     color: var(--blanched-almond);
+    text-decoration: underline;
+    /*No idea how this works*/
+    text-shadow: -2px -2px 0 var(--vermilion), 2px -2px 0 var(--vermilion), -2px 2px 0 var(--vermilion), 2px 2px 0 var(--vermilion);
 }
 
 
 
 a {
-    color: blanchedalmond;
+    color: var(--vermilion);
     font-family: normal-font, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 a:hover{
-    color: var(--ming);
+    color: var(--blanched-almond);
 }
 
 
 
 hr {
-    border: 2px solid var(--amber-sae-ece);
+    border: 2px solid var(--carolina-blue);
 }
 
 body {
-    background-color: var(--rich-black-fogra-29);
+    background-color: var(--english-violet);
 }
 
 footer{
