@@ -20,26 +20,22 @@
     --english-violet: #58355eff;
     --vermilion: #e03616ff;
     --blanched-almond: #ffecd1ff;
-    --carolina-blue: #fff689ff;
+    --canary: #fff689ff;
     --tea-green: #cfffb0ff;
     --carolina-blue: #5998c5ff;
 }
-
-
-
-
 
 ul{
     list-style: none;
 }
 
 li {
-    color : var(--tea-green);
+    color : var(--blanched-almond);
 }
 
 ul li::before{
     content: "\2605";
-    color: var(--tea-green);
+    color: var(canary);
     display: inline-block;
     width: 20px;
     margin-left: -20px;
@@ -74,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 a {
-    color: var(--vermilion);
+    color: var(--tea-green);
     font-family: normal-font, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
@@ -105,4 +101,12 @@ footer{
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+
+.foodimg {
+    width: calc(90%);
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
