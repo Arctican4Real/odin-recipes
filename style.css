@@ -17,12 +17,12 @@
 /*Defining colors*/
 :root {
     /* CSS HEX */
-    --english-violet: #58355eff;
+    --english-violet: rgb(31, 104, 122);
     --vermilion: #e03616ff;
     --blanched-almond: #ffecd1ff;
-    --canary: #fff689ff;
+    --canary: rgb(255, 241, 85);
     --tea-green: #cfffb0ff;
-    --carolina-blue: #5998c5ff;
+    --carolina-blue: rgb(39, 122, 182);
 }
 
 ul{
@@ -31,13 +31,14 @@ ul{
 
 li {
     color : var(--blanched-almond);
+    font-size: 30px;
 }
 
 ul li::before{
     content: "\2605";
-    color: var(canary);
+    color: var(--canary);
     display: inline-block;
-    width: 20px;
+    width: 50px;
     margin-left: -20px;
 }
 
@@ -47,19 +48,16 @@ p{
 }
 
 #title{
-    background-color: var(--carolina-blue) ;
-    padding: 5px;
-    margin: 5px;
     text-align: center;
-    border-radius: 25px;
 }
 
 #title h1{
     color: var(--blanched-almond);
     font-family: pretty-curly, sans-serif;
+    font-size: 40px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
     font-family: subtitle-text, sans-serif;
     color: var(--blanched-almond);
     text-decoration: underline;
@@ -109,4 +107,5 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 100px;
 }
