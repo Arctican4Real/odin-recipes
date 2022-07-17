@@ -17,12 +17,12 @@
 /*Defining colors*/
 :root {
     /* CSS HEX */
-    --english-violet: rgb(31, 104, 122);
-    --vermilion: #e03616ff;
+    --english-violet: rgb(31, 122, 79);
+    --vermilion: rgb(10, 185, 33);
     --blanched-almond: #ffecd1ff;
     --canary: rgb(255, 241, 85);
     --tea-green: #cfffb0ff;
-    --carolina-blue: rgb(39, 122, 182);
+    --carolina-blue: rgb(39, 182, 75);
 }
 
 ul{
@@ -31,7 +31,7 @@ ul{
 
 li {
     color : var(--blanched-almond);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul li::before{
@@ -42,6 +42,7 @@ ul li::before{
     margin-left: -20px;
 }
 
+
 p{
     color: blanchedalmond;
     font-family: normal-font, sans-serif;
@@ -51,13 +52,7 @@ p{
     text-align: center;
 }
 
-#title h1{
-    color: var(--blanched-almond);
-    font-family: pretty-curly, sans-serif;
-    font-size: 40px;
-}
-
-h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: subtitle-text, sans-serif;
     color: var(--blanched-almond);
     text-decoration: underline;
@@ -65,6 +60,18 @@ h2,h3,h4,h5,h6 {
     text-shadow: -2px -2px 0 var(--vermilion), 2px -2px 0 var(--vermilion), -2px 2px 0 var(--vermilion), 2px 2px 0 var(--vermilion);
 }
 
+#title h1{
+    color: var(--blanched-almond);
+    font-family: pretty-curly, sans-serif;
+    font-size: 40px;
+    text-shadow: none;
+    background-color: var(--carolina-blue);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
 
 
 a {
