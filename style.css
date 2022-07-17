@@ -24,3 +24,73 @@
     --kobe: #78290fff;
 }
 
+ul{
+    list-style: none;
+}
+
+ul li::before{
+    content: "\2605";
+    color: var(--amber-sae-ece);
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+}
+
+p{
+    color: blanchedalmond;
+    font-family: normal-font, sans-serif;
+}
+
+#title{
+    background-color: var(--ming) ;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#title h1{
+    color: var(--blanched-almond);
+    font-family: pretty-curly, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: subtitle-text, sans-serif;
+    color: var(--blanched-almond);
+}
+
+
+
+a {
+    color: blanchedalmond;
+    font-family: normal-font, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--ming);
+}
+
+
+
+hr {
+    border: 2px solid var(--amber-sae-ece);
+}
+
+body {
+    background-color: var(--rich-black-fogra-29);
+}
+
+footer{
+    color: white;
+    text-align: left;
+    font-family: normal-font, sans-serif;
+}
+
+#maingif {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
